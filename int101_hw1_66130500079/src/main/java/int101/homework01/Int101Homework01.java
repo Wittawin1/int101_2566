@@ -41,7 +41,7 @@ public class Int101Homework01 {
         // remove () as many as possible from the following expression
         // but do not change the meaning of the expression;
         // regardless of the values of the parameters: b1-b6 .
-        boolean b = v1 << v2 < v3 != (v3 > (v4 ^ v5 | v6));
+        boolean b = (v1 << v2) < v3 != v3 > (v4 ^ v5 | v6);
         System.out.println("Work02: Question: b = " + b);
 
     }
